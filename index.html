@@ -11,15 +11,18 @@
     <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
     <link rel="stylesheet" href="./src/styles/main-content.css">
     <link rel="stylesheet" href="./src/styles/media-queries.css">
+    <link rel="stylesheet" href="./src/styles/slider-banner.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
         integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
-        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 
 </head>
 
 <body>
+
+    
     <div class="sidebar">
         <nav class="sidebar__navigation">
             <div class="logo">
@@ -42,64 +45,59 @@
                 </li>
             </ul>
         </nav>
-        <div class="library">
-            <div class="library__content">
-                <button class="library__button">
-                    <span class="fa fas fa-book"></span>
+        <div class="discovery">
+            <div class="discovery__content">
+                <button class="discovery__button">
+                    <span class="fa-solid fa-book"></span>
                     <span>Descubra</span>
                 </button>
                 <span class="fa fa-plus"></span>
             </div>
-            <section class="section-playlist">
-                <div class="section-playlist__content">
+            <section class="section-discovery">
+                <div class="section-discovery__content">
                     <span class="text title">Que tal descobrir novas modalidades?</span>
                     <span class="text subtitle"></span>
-                    <button class="section-playlist__button">
+                    <button class="section-discovery__button">
                         <span>Descubra!</span>
                     </button>
                 </div>
-            <section class="section-playlist">
-                <div class="section-playlist__content">
-                    <span class="text title">Que tal descobrir sobre a evolução?</span>
-                    <span class="text subtitle"></span>
-                    <button class="section-playlist__button">
-                        <span>Descubra!</span>
-                    </button>
-                </div>
-                <section class="section-playlist">
-                    <div class="section-playlist__content">
-                        <span class="text title">Que tal descobrir sobre sobre campeonatos?</span>
+                <section class="section-discovery">
+                    <div class="section-discovery__content">
+                        <span class="text title">Que tal descobrir sobre a evolução?</span>
                         <span class="text subtitle"></span>
-                        <button class="section-playlist__button">
+                        <button class="section-discovery__button">
                             <span>Descubra!</span>
                         </button>
                     </div>
-            <section class="section-playlist">
-                <div class="section-playlist__content">
-                    <span class="text title">Que tal descobrir sobre categorias?</span>
-                    <span class="text subtitle"></span>
-                    <button class="section-playlist__button">
-                        <span>Descubra!</span>
-                    </button>
-                </div>
-            </section>
-            <div class="cookies">
-                <a href="">Cookies</a>
-            </div>
-            <div class="languages">
-                <button class="languages__button">
-                    <span class="fa fa-globe"></span>
-                    <span>Português do Brasil</span>
-                </button>
-            </div>
+                    <section class="section-discovery">
+                        <div class="section-discovery__content">
+                            <span class="text title">Que tal descobrir sobre sobre campeonatos?</span>
+                            <span class="text subtitle"></span>
+                            <button class="section-discovery__button">
+                                <span>Descubra!</span>
+                            </button>
+                        </div>
+                    </section>
+                    <div class="cookies">
+                        <a href="">Cookies</a>
+                    </div>
+                    <div class="languages">
+                        <button class="languages__button">
+                            <span class="fa fa-globe"></span>
+                            <span>Português do Brasil</span>
+                        </button>
+                    </div>
         </div>
     </div>
     <main>
+
+
+
         <div class="main-container">
             <nav class="header__navigation">
                 <div class="header__search">
-                    <img src="src/img/icon/search.png"" />
-                    <input id="search-input" maxlength="800" autocorrect="off" autocapitalize="off" spellcheck="false"
+                    <img src="src/img/icon/search.png" />
+                    <input id=" search-input" maxlength="800" autocorrect="off" autocapitalize="off" spellcheck="false"
                         placeholder="Pesquisar" value="" />
                 </div>
                 <div class="header__login">
@@ -107,6 +105,103 @@
                     <button class="login">Entrar</button>
                 </div>
             </nav>
-    
+
+            <div class="category-container">
+                <div class="slider">
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id="radio1" checked>
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+            
+                        <div class="slide first">
+                            <a href="">
+                                <img src="src/img/sliders/SLI1.png" alt="Imagem 1">
+                            </a>
+                        </div>
+                        <div class="slide">
+                            <a href="">
+                                <img src="src/img/sliders/SLI2.png" alt="Imagem 2">
+                            </a>
+                        </div>
+                        <div class="slide">
+                            <a href="">
+                                <img src="src/img/sliders/SLI3.png" alt="Imagem 3">
+                            </a>
+                        </div>
+                        <div class="slide">
+                            <a href="">
+                                <img src="src/img/sliders/SLI4.png" alt="Imagem 4">
+                            </a>
+                        </div>
+                    </div>
+            
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+            
+                    <div class="manual-navigation">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                    </div>
+                </div>
+                    <div class="category">
+                        <h1 id="greeting">Boas vindas</h1>
+                        <h2 class="session">Navegar por todas as seções</h2>
+                    </div>
+
+                    <!-- LIST DE CARDS -->
+                    <div class="offer__scroll-container">
+                        <div class="offer__list">
+                            <section class="offer__list-item">
+                                <!-- CARD 1 -->
+                                <a href="" class="cards">
+                                    <div class="cards card1">
+                                        <img src="./src/img/banners/ORIGEM.png" alt="" />
+                                        <span>Boas festas</span>
+                                    </div>
+                                </a>
+
+                                <!-- CARD 2 -->
+                                <a href="" class="cards">
+                                    <div class="cards card2">
+                                        <img src="./src/img/banners/EVOLUÇÃO.png "alt="" />
+                                        <span>Feitos para você</span>
+                                    </div>
+                                </a>
+
+                                <!-- CARD 3 -->
+                                <a href="" class="cards">
+                                    <div class="cards card3">
+                                        <img src="./src/img/banners/CAMPEONATOS.png" alt="" />
+                                        <span>Lançamentos</span>
+                                    </div>
+                                </a>
+
+                                <!-- CARD 4 -->
+                                <a href="" class="cards">
+                                    <div class="cards card4">
+                                        <img src="./src/img/banners/GRANDESATLETAS.png" alt="" />
+                                        <span>Creators</span>
+                                    </div>
+                                </a>
+
+                            </section>
+                        </div>
+                    </div>
+                </div>
+
+
+        </div>
+
+
+    </main>
+    <script src="src/slider.js"></script>
 </body>
+
 </html>
