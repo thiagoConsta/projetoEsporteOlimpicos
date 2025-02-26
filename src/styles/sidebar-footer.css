@@ -26,7 +26,8 @@ body{
 }
 
 .sidebar__navigation .logo img{
-    width:80px;
+    width: 80px;
+    height: 70px;
 }
 
 .sidebar nav ul{
